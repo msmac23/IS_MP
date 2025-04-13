@@ -162,5 +162,7 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Base()) as demo:
         guide_btn.click(generate_guide, inputs=style_dropdown, outputs=guide_output)
 
 # Launch (keep this the same)
-if __name__ == "__main__":
-    demo.launch()
+#if __name__ == "__main__":
+ #   demo.launch()
+
+demo.launch()
